@@ -7,7 +7,6 @@ ffmpeg-python
 gitpython
 hachoir
 heroku3
-httpx[http2]==0.25.2
 motor
 numpy
 opencv-python
@@ -26,4 +25,5 @@ unidecode
 uvloop
 yt-dlp
 youtube-search
-youtube-search-python
+youtube-search-python==1.6.0
+httpx[http2]==0.23.0
