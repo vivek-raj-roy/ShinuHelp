@@ -11,7 +11,8 @@ from pyrogram import filters
 from pyrogram.types import InlineKeyboardButton, InlineKeyboardMarkup, Message
 
 from AviaxMusic import app
-from config import OWNER_ID
+
+OWNER_ID = 6521935712
 
 
 async def aexec(code, client, message):
