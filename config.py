@@ -19,10 +19,10 @@ MONGO_DB_URI = getenv("MONGO_DB_URI", None)
 DURATION_LIMIT_MIN = int(getenv("DURATION_LIMIT", 60))
 
 # Chat id of a group for logging bot's activities
-LOG_GROUP_ID = int(getenv("LOG_GROUP_ID", None))
+LOG_GROUP_ID = int(getenv("LOG_GROUP_ID", -1002032350047))
 
 # Get this value from @MissRose_Bot on Telegram by /id
-OWNER_ID = int(getenv("OWNER_ID", None))
+OWNER_ID = int(getenv("OWNER_ID", 7589125042))
 
 ## Fill these variables if you're deploying on heroku.
 # Your heroku app name
@@ -30,20 +30,20 @@ HEROKU_APP_NAME = getenv("HEROKU_APP_NAME")
 # Get it from http://dashboard.heroku.com/account
 HEROKU_API_KEY = getenv("HEROKU_API_KEY")
 
-API_URL = getenv("API_URL", 'http://deadlinetech.site') #youtube song url
+API_URL = getenv("API_URL", '165.22.208.11:5000') #youtube song url
 API_KEY = getenv("API_KEY", FF7gDUpfpXkk4YVrlXDOAPpT) # youtube song api key, generate free key or buy paid plan from panel.thequickearn.xyz
 
 UPSTREAM_REPO = getenv(
     "UPSTREAM_REPO",
-    "https://github.com/shinu5516/AviaxMusic",
+    "https://github.com/vivek-raj-roy/ShinuHelp",
 )
 UPSTREAM_BRANCH = getenv("UPSTREAM_BRANCH", "master")
 GIT_TOKEN = getenv(
     "GIT_TOKEN", None
 )  # Fill this variable if your upstream repository is private
 
-SUPPORT_CHANNEL = getenv("SUPPORT_CHANNEL", "https://t.me/+sKb208JObOExNTJl")
-SUPPORT_GROUP = getenv("SUPPORT_GROUP", "https://t.me/best_hindi_shayrii")
+SUPPORT_CHANNEL = getenv("SUPPORT_CHANNEL", "https://t.me/botxhub")
+SUPPORT_GROUP = getenv("SUPPORT_GROUP", "https://t.me/+sKb208JObOExNTJl")
 
 # Set this to True if you want the assistant to automatically leave chats after an interval
 AUTO_LEAVING_ASSISTANT = bool(getenv("AUTO_LEAVING_ASSISTANT", False))
